@@ -4,7 +4,8 @@
   "description": "meeti con bootstrap",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compilar:sass": "sass --watch src/scss:build/css",
+    "build:sass": "purgecss --css build/css/style.css --content index.html --output build/css/meeti.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/aaronpadilla20/meetiBootStrap#readme",
   "devDependencies": {
-    "gulp": "^5.0.0"
+    "bootstrap": "^5.3.3",
+    "gulp": "^5.0.0",
+    "sass": "^1.79.4"
   }
 }
