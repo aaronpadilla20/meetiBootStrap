@@ -1,0 +1,22 @@
+{
+  "name": "meeti_bootstrap",
+  "version": "1.0.0",
+  "description": "meeti con bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronpadilla20/meetiBootStrap.git"
+  },
+  "author": "Aaron Padilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronpadilla20/meetiBootStrap/issues"
+  },
+  "homepage": "https://github.com/aaronpadilla20/meetiBootStrap#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  }
+}
